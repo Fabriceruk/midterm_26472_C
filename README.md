@@ -93,7 +93,9 @@ The system contains the following tables:
 
 These entities demonstrate different relational mappings using JPA annotations.
 
-![alt text](<My Smart AgriTech ERD.drawio-1.png>)
+AND here there is an ERD Image that explain all relationships
+
+![alt text](<My Smart AgriTech ERD.drawio.png>)
 
 ---
 
