@@ -142,59 +142,67 @@ SmartAgriTech
 ## LOCATION
 * POST | http://localhost:8080/api/locations/save
 
-![alt text](<location saved.png>)
+<img width="535" height="464" alt="Image" src="https://github.com/user-attachments/assets/e08c6fb4-1453-40a3-9f06-8dc0a3ee43e3" />
 
 * POST | http://localhost:8080/api/locations/save?parentId=UUID
 
-![alt text](<Sector saved-1.png>)
-![alt text](<Cell Saved.png>)
-![alt text](<Village saved-1.png>)
+<img width="523" height="444" alt="Image" src="https://github.com/user-attachments/assets/423cd408-2646-419f-b512-ecf1bd677565" />
+
+<img width="535" height="464" alt="Image" src="https://github.com/user-attachments/assets/fb78f672-47f3-4797-b184-214e26e787fd" />
+
+<img width="542" height="386" alt="Image" src="https://github.com/user-attachments/assets/5e93d59f-4094-403f-ad43-cf199d45554a" />
 
 * GET  | http://localhost:8080/api/locations/all
 
-![alt text](<Get all locations.png>)
-![alt text](<get all locations2.png>)
-![alt text](<all location.png>)
+<img width="720" height="468" alt="Image" src="https://github.com/user-attachments/assets/653bbd97-d289-419e-b667-a7a407b3faae" />
+
+<img width="704" height="456" alt="Image" src="https://github.com/user-attachments/assets/bd433b38-601e-4c69-be4f-ac0943f7b647" />
+
+<img width="629" height="455" alt="Image" src="https://github.com/user-attachments/assets/ee17925d-a63f-44a4-89a6-315e115a24b4" />
 
 * GET  | http://localhost:8080/api/locations/code
 
-![alt text](<get location by code.png>)
+<img width="554" height="445" alt="Image" src="https://github.com/user-attachments/assets/f5a342f1-8b83-4ad3-9b0f-21f1eafdfc90" />
 
 ## FARMER
 * POST | http://localhost:8080/api/farmers/save?locationId=UUID
 
-![alt text](<Save Farmer-1.png>)
+<img width="719" height="442" alt="Image" src="https://github.com/user-attachments/assets/d71a59b1-d719-4db4-bd9d-31cd7dc74d48" />
 
 * GET  | http://localhost:8080/api/farmers/paginated?page=0&size=5&sortBy=firstName
 
-![alt text](<Pagination & Sorting.png>)
+<img width="617" height="447" alt="Image" src="https://github.com/user-attachments/assets/c42996ab-26a6-4718-87ea-4e0af5c93393" />
 
 * GET  | http://localhost:8080/api/farmers/by-province?code=KGL
 
-![alt text](<get location by code-1.png>)
+<img width="554" height="445" alt="Image" src="https://github.com/user-attachments/assets/945feabb-c6cb-4da8-895f-23c967f28038" />
 
 ## FARM
 * POST | http://localhost:8080/api/farms/save?farmerId=1
 
-![alt text](<Farm saved-1.png>)
+<img width="719" height="442" alt="Image" src="https://github.com/user-attachments/assets/d71a59b1-d719-4db4-bd9d-31cd7dc74d48" />
 
 ## PESTICIDE
 * POST  | http://localhost:8080/api/pesticides/save
 
-![alt text](<pecisticide saved.png>)
+<img width="721" height="394" alt="Image" src="https://github.com/user-attachments/assets/5640df76-b8a3-4e20-8de2-e8433b45815b" />
 
 ## CROP
 * POST | http://localhost:8080/api/crops/save?farmId=1
 
-![alt text](<Crop saved.png>)
+<img width="727" height="455" alt="Image" src="https://github.com/user-attachments/assets/7be9f4af-3cac-4091-a59c-9e06a7c8663c" />
 
 * PUT  | http://localhost:8080/api/crops/1/assign-pesticides 
 
-![alt text](<pecisticide assigned.png>)
+<img width="607" height="404" alt="Image" src="https://github.com/user-attachments/assets/7f95d86e-3310-40d4-a66e-eba492468ee5" />
 
 * GET  | http://localhost:8080/api/crops/paginated?page=0&size=5&sortBy=cropName&direction=asc
 
-![alt text](<paginated 1-1.png>)
+<img width="611" height="446" alt="Image" src="https://github.com/user-attachments/assets/2ff6d636-b625-4774-b7c7-1d7ef66bc7ab" />
+
+<img width="611" height="445" alt="Image" src="https://github.com/user-attachments/assets/3479ca7c-e913-458b-9d17-8b1299314e4e" />
+
+<img width="614" height="468" alt="Image" src="https://github.com/user-attachments/assets/34fbce32-95ee-4a78-be40-d693ff1c10a3" />
 
 ## Setup & Installation
 
